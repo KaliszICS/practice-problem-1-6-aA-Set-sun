@@ -62,9 +62,6 @@ public class PracticeProblem {
 		System.out.print("Input pizza: ");
 		pizza = input.nextLine();
 		System.out.println(pizza.equals("pizza"));
-		
-		input.nextLine(); //clear scanner
-
 
 	}
 
@@ -77,12 +74,10 @@ public class PracticeProblem {
 
 		Scanner input = new Scanner(System.in);
 		
-		int num;
+		double num;
 		System.out.print("Input a number: ");
-		num = input.nextInt();
+		num = input.nextDouble();
 		System.out.println(num == 0);
-		
-		input.nextLine(); //clear scanner
 	
 
 	}
@@ -112,11 +107,11 @@ public class PracticeProblem {
 	Scanner input = new Scanner(System.in);
 
 	String oldWord;
-	System.out.println("Input a word earlier than google: ");
+	System.out.print("Input a word earlier than google: ");
 	oldWord = input.nextLine();
 
-	System.out.print(oldWord.compareTo( "Google") < 0);
-	input.nextLine();
+	System.out.println(oldWord.compareTo( "google") < 0);
+	
 
 
 	}
