@@ -2,7 +2,7 @@
 	 File: Lesson 1.6: Intro to Booleans
 	 Author: Angie
 	 Date Created: February 20, 2026
-	 Date Last Modified: February 20, 2026
+	 Date Last Modified: February 23, 2026
 	*/
 
 
